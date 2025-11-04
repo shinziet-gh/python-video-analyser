@@ -186,7 +186,7 @@ def main():
     client_key = os.getenv('OPENAI_API_KEY')
     client = GPTClient(client_key=client_key)
 
-    video_file = "./data/AI_Intern_Project.mp4"
+    video_file = "./data/video.mp4"
     responses = process_video(client, video_file)
 
     pprint.pprint(responses)
